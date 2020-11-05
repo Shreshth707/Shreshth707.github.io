@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color:white;
+    font-weight: bold;
+}
+a {
+    color: white;
+    font-family: 'Roboto Slab', serif; 
+}
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+}
+.btn {
+    background-color: black;
+}
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    /* the rest of your styling */
+}

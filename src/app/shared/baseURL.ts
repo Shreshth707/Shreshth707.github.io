@@ -1,0 +1,1 @@
+export const baseURL = "https://pixabay.com/api/?key=18970282-b3051bc4607929ae2446153a5&per_page=199&safesearch=true&";
