@@ -25,3 +25,6 @@ a {
     font-size: 2rem;
     /* the rest of your styling */
 }
+.navbar-toggler{
+    border-color: black;
+}
