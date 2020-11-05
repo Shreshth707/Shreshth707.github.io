@@ -6,7 +6,7 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" (keyup)="getVal($event)">
-      <button class="btn btn-outline-success my-2 my-sm-3" type="submit"><a [routerLink]="['/search',searchText]" >Search</a></button>
+      <a [routerLink]="['/search',searchText]"><button class="btn btn-outline-success my-2 my-sm-3" type="submit">Search</button></a>
     </form>
   </button>
 
@@ -21,7 +21,7 @@
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" (keyup)="getVal($event)">
-      <button class="btn btn-outline-success my-2 my-sm-3" type="submit"><a [routerLink]="['/search',searchText]" >Search</a></button>
+      <a [routerLink]="['/search',searchText]" ><button class="btn btn-outline-success my-2 my-sm-3" type="submit">Search</button></a>
     </form>
   </div>
 </nav>
